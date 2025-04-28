@@ -1,0 +1,19 @@
+{
+  "name": "github_workflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "echo 'No lint setup yet'",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
