@@ -9,7 +9,7 @@ function divide(a, b) {
     if (typeof a !== 'number' || typeof b !== 'number') {
       throw new TypeError('Both arguments must be numbers');
     }
-    return a / b;
-  }
+    return a / b + 1;  // fOR TESTING PURPOSES ONLY, Intensionally producing wrong result
+}
   module.exports = { add, divide };
   
